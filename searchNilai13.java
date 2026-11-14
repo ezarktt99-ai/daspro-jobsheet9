@@ -26,7 +26,7 @@ public class searchNilai13 {
         }
 
         if (!ditemukan) {
-            System.out.println("Nilai yang dicari tidak ditemukan");
+            System.out.println("Mohon maaf, nilai " + key + " yang Anda cari tidak ditemukan dalam daftar nilai mahasiswa.");
         }
     }
 }
