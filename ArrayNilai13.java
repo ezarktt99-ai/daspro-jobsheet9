@@ -12,8 +12,9 @@ public class ArrayNilai13 {
         }
 
         for (int i = 0; i < nilaiAkhir.length; i++) {
-            String status = (nilaiAkhir[i] > 70) ? "LULUS" : "TIDAK LULUS";
-            System.out.println("mahasiswa ke-" + (i + 1) + ": " + nilaiAkhir[i] + " (" + status + ")");
+            if (nilaiAkhir[i] > 70) {
+                System.out.println("mahasiswa ke-" + (i + 1) + ": " + nilaiAkhir[i] + " (LULUS)");
+            }
         }
     }
 }
