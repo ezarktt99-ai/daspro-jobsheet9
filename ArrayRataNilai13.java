@@ -41,5 +41,7 @@ public class ArrayRataNilai13 {
        }else {
         System.out.print("predikat kelas: PERLLU PENDAMPINGAN");
        }
+
+       System.out.println("Banyaknya mahasiswa lulus: " + lulus);
     }
 }
