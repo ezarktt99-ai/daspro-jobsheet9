@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class searchNilai13 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        
+
         System.out.print("Masukkan banyaknya nilai yang akan diinput: ");
         int n = input.nextInt();
 
