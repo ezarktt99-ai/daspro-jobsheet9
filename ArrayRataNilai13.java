@@ -30,7 +30,8 @@ public class ArrayRataNilai13 {
            if (nilaiMhs[i] > tertinggi) tertinggi = nilaiMhs[i];
            if (nilaiMhs[i] < terendah ) terendah = nilaiMhs[i];
        }
-
+       System.out.println("Total nilai: " + total);
+       System.out.println("Rata-rata: " + rata2);
        System.out.println("nilai tertinggi: " + tertinggi);
        System.out.println("nilai terendah: " + terendah);
 
